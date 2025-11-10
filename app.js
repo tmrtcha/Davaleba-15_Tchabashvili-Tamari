@@ -1,7 +1,7 @@
 // NUMBER
 let soldQuantity = 1500;
 let pricePerItem = 2.5;
-let totalRevenue = soldQuantity * pricePerItem;
+const totalRevenue = soldQuantity * pricePerItem;
 console.log("Total Revenue: $" + totalRevenue);
 console.log("Type _ " + typeof totalRevenue);
 
@@ -24,3 +24,21 @@ console.log("Type _ " + typeof bonusAmount);
 let discount = null;
 console.log("Discount _ " + discount);
 console.log("Type _ " + typeof discount);
+
+// concatenation
+let name = "Tamari";
+let dayofWeek = "Sunday";
+let favoriteActivity = "painting";
+
+let greeting1 =
+  "Hi, my name is " +
+  name +
+  "! Today is " +
+  dayofWeek +
+  ", a perfect day for " +
+  favoriteActivity +
+  ".";
+console.log(greeting1);
+
+const greeting2 = `Hi, my name is ${name}! Today is ${dayofWeek}, a perfect day for ${favoriteActivity}.`;
+console.log(greeting2);
